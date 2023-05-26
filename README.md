@@ -5,32 +5,32 @@ Getting Started
 
 To compile and run the code, make sure you have a C compiler installed on your system. This program uses the standard C library functions, so no additional dependencies are required.
 
-    Copy the code provided into a file with a .c extension (e.g., token_analyzer.c).
+Copy the code provided into a file with a .c extension (e.g., token_analyzer.c).
 
-    Open a terminal or command prompt and navigate to the directory where the file is saved.
+Open a terminal or command prompt and navigate to the directory where the file is saved.
 
-    Compile the code using the following command:
+Compile the code using the following command:
 
         gcc token_analyzer.c -o token_analyzer
 
-    Run the program:
+Run the program:
 
-        ./token_analyzer
+        ./token-splitter
 
 Usage
 
-    Upon running the program, it will prompt you to enter input. Enter the text you want to analyze, and press Enter.
-    The program will tokenize the input, categorize each token, and store it in the symbol table.
-    Repeat the process to analyze more input.
-    To stop the program, enter ~ as the input.
+Upon running the program, it will prompt you to enter input. Enter the text you want to analyze, and press Enter.
+The program will tokenize the input, categorize each token, and store it in the symbol table.
+Repeat the process to analyze more input.
+To stop the program, enter ~ as the input.
 
 Symbol Table
 
 The program maintains a symbol table to store the analyzed symbols along with their addresses and types. The symbol table is displayed after analyzing each input. The columns of the symbol table are as follows:
 
-    Symbol: The name of the analyzed symbol.
-    Address: The address of the symbol.
-    Type: The type of the symbol (kw for keywords, op for operators, id for identifiers, and num for numbers).
+ Symbol: The name of the analyzed symbol.
+ Address: The address of the symbol.
+ Type: The type of the symbol (kw for keywords, op for operators, id for identifiers, and num for numbers).
 
 Code Explanation
 
